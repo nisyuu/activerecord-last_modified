@@ -5,20 +5,20 @@ require_relative "lib/activerecord/last_modified/version"
 Gem::Specification.new do |spec|
   spec.name = "activerecord-last_modified"
   spec.version = Activerecord::LastModified::VERSION
-  spec.authors = ["uichi"]
-  spec.email = ["37263474+uichi@users.noreply.github.com"]
+  spec.authors = ["nisyuu"]
+  spec.email = ["37263474+nisyuu@users.noreply.github.com"]
 
   spec.summary = "ActiveRecord Extension"
   spec.description = "ActiveRecord extension to get the last modified date of model."
-  spec.homepage = "https://github.com/uichi/activerecord-last_modified"
+  spec.homepage = "https://github.com/nisyuu/activerecord-last_modified"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
   # spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/uichi/activerecord-last_modified"
-  spec.metadata["changelog_uri"] = "https://github.com/uichi/activerecord-last_modified/blob/main/CODE_OF_CONDUCT.md"
+  spec.metadata["source_code_uri"] = "https://github.com/nisyuu/activerecord-last_modified"
+  spec.metadata["changelog_uri"] = "https://github.com/nisyuu/activerecord-last_modified/blob/main/CODE_OF_CONDUCT.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.

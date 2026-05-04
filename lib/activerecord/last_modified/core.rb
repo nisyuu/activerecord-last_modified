@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require "active_support/concern"
+
 module ActiveRecord
   module LastModified
     extend ActiveSupport::Concern
